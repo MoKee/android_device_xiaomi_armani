@@ -18,9 +18,5 @@
  {
    "repository": "android_hardware_qcom_media-legacy-armani",
    "target_path": "hardware/qcom/media-legacy-armani"
- },
- {
-   "repository": "android_hardware_qcom_audio-caf-armani",
-   "target_path": "hardware/qcom/audio-caf-armani"
  }
 ]
