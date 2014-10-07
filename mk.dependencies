@@ -8,15 +8,15 @@
    "target_path": "vendor/xiaomi/armani"
  },
  {
-   "repository": "android_hardware_qcom_display-caf-new",
-   "target_path": "hardware/qcom/display-caf-new"
+   "repository": "android_hardware_qcom_display-legacy-armani",
+   "target_path": "hardware/qcom/display-legacy-armani"
  },
  {
-   "repository": "android_hardware_qcom_media-caf-new",
-   "target_path": "hardware/qcom/media-caf-new"
+   "repository": "android_hardware_qcom_media-legacy-armani",
+   "target_path": "hardware/qcom/media-legacy-armani"
  },
  {
-   "repository": "android_hardware_qcom_audio-caf-new",
-   "target_path": "hardware/qcom/audio-caf-new"
+   "repository": "android_hardware_qcom_audio-legacy-armani",
+   "target_path": "hardware/qcom/audio-legacy-armani"
  }
 ]
