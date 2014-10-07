@@ -1,11 +1,15 @@
 [
  {
+   "repository": "android_vendor_xiaomi_armani",
+   "target_path": "vendor/xiaomi/armani"
+ },
+ {
    "repository": "android_device_xiaomi_msm8226-common",
    "target_path": "device/xiaomi/msm8226-common"
  },
  {
-   "repository": "android_vendor_xiaomi_armani",
-   "target_path": "vendor/xiaomi/armani"
+   "repository": "android_kernel_xiaomi_msm8226-common",
+   "target_path": "kernel/xiaomi/msm8226-common"
  },
  {
    "repository": "android_hardware_qcom_display-legacy-armani",
@@ -16,7 +20,7 @@
    "target_path": "hardware/qcom/media-legacy-armani"
  },
  {
-   "repository": "android_hardware_qcom_audio-legacy-armani",
-   "target_path": "hardware/qcom/audio-legacy-armani"
+   "repository": "android_hardware_qcom_audio-caf-armani",
+   "target_path": "hardware/qcom/audio-caf-armani"
  }
 ]
