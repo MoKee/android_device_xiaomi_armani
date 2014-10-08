@@ -150,9 +150,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/modules/spidev.ko:system/lib/modules/spidev.ko \
     $(LOCAL_PATH)/prebuilt/modules/test-iosched.ko:system/lib/modules/test-iosched.ko\
     
-# liboverlay ???
+# prebuilt
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/liboverlay.so:system/lib/liboverlay.so
+    $(LOCAL_PATH)/prebuilt/liboverlay.so:system/lib/liboverlay.so \
+    $(LOCAL_PATH)/prebuilt/lights.msm8226.so:system/lib/hw/lights.msm8226.so
     
 PRODUCT_PACKAGES += \
     Torch
