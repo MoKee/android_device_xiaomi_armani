@@ -108,7 +108,6 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
 
     property_set("persist.call_recording.src", "4");
     property_set("ro.product.device", "armani");
-    property_set("persist.env.phone.armani", "true");
     property_set("ro.build.description", "mk_armani-userdebug 4.4.4 KTU84Q JHCCNBF36.0 release-keys");
     property_set("ro.build.fingerprint", "Xiaomi/armani/armani:4.4.4/KTU84Q/JHCCNBF36.0:userdebug/release-keys");
 
