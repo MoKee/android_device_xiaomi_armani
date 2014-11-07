@@ -44,10 +44,10 @@ BOARD_KERNEL_SEPARATED_DT := true
 ifneq ($(TARGET_PREBUILT_KERNEL),)
 BOARD_CUSTOM_BOOTIMG_MK := device/xiaomi/armani/mkbootimg_pre.mk
 TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8226-common
-TARGET_KERNEL_CONFIG := cm_msm8226_perf_defconfig
+TARGET_KERNEL_CONFIG := mokee_msm8226_perf_defconfig
 else
 TARGET_KERNEL_SOURCE := kernel/xiaomi/armani
-TARGET_KERNEL_CONFIG := cm_armani_defconfig
+TARGET_KERNEL_CONFIG := mokee_armani_defconfig
 BOARD_CUSTOM_BOOTIMG_MK := device/xiaomi/armani/mkbootimg.mk
 endif
 
