@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+MK_TOOLCHAIN_VARIANT := uber
+
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-smd"
 
@@ -84,7 +86,7 @@ MAX_EGL_CACHE_KEY_SIZE := 12*1024
 MAX_EGL_CACHE_SIZE := 2048*1024
 
 # Hardware tunables
-BOARD_HARDWARE_CLASS := device/xiaomi/armani/cmhw/
+BOARD_HARDWARE_CLASS := device/xiaomi/armani/mkhw/
 
 # Init
 TARGET_UNIFIED_DEVICE := true
@@ -93,7 +95,7 @@ TARGET_LIBINIT_DEFINES_FILE := device/xiaomi/armani/init/init_armani.c
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/armani
-TARGET_KERNEL_CONFIG := cyanogenmod_armani_defconfig
+TARGET_KERNEL_CONFIG := mokee_armani_defconfig
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=armani user_debug=31 msm_rtb.filter=0x37
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 2048
