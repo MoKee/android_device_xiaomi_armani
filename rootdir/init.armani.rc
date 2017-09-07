@@ -202,6 +202,7 @@ service irsc_util /system/bin/irsc_util "/etc/sec_config"
 service rmt_storage /system/bin/rmt_storage
     class core
     user root
+    group system wakelock
 
 service rfs_access /system/bin/rfs_access
     class core
@@ -239,6 +240,8 @@ service qmuxd /system/bin/qmuxd
 
 service netmgrd /system/bin/netmgrd
     class main
+    user root
+    group root wifi wakelock radio inet
 
 service sensors /system/bin/sensors.qcom
     class late_start
